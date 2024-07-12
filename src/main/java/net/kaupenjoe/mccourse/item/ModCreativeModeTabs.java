@@ -54,6 +54,8 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.AZURITE_DOOR.get());
                         output.accept(ModBlocks.AZURITE_TRAPDOOR.get());
+
+                        output.accept(ModBlocks.CATMINT.get());
                     }).build());
 
 
