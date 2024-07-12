@@ -75,6 +75,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> POTTED_CATMINT = BLOCKS.register("potted_catmint",
             () -> new FlowerPotBlock((() -> (FlowerPotBlock) Blocks.FLOWER_POT), CATMINT, BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_ALLIUM)));
 
+    public static final RegistryObject<Block> COLORED_LEAVES = registerBlock("colored_leaves",
+            () -> new Block(BlockBehaviour.Properties.of()));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
