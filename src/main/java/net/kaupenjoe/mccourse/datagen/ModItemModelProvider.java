@@ -31,6 +31,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         wallItem(ModBlocks.AZURITE_WALL, ModBlocks.AZURITE_BLOCK);
 
         simpleBlockItem(ModBlocks.AZURITE_DOOR);
+
+        basicItem(ModItems.ONION_SEEDS.get());
     }
 
     public void buttonItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
